@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-video-editing-x-attention"
+description = "Investigating the Effectiveness of Cross Attention to Unlock Zero-Shot Editing of Text-to-Video Diffusion Models"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["ftfy", "ipywidgets", "accelerate", "fastcore", "scikit-learn", "modelscope", "diffusers", "git+https://github.com/cloneofsimo/lora.git", "git+https://github.com/microsoft/LoRA", "transformers", "einops", "decord", "tqdm", "safetensors", "omegaconf", "opencv-python", "pydantic", "compel"]
+
+[project.urls]
+Repository = "https://github.com/chaojie/ComfyUI-Video-Editing-X-Attention"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Video-Editing-X-Attention"
+Icon = ""
